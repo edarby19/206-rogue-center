@@ -105,6 +105,7 @@ header nav ul li a{
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
 }
 
 .main-title {
@@ -202,7 +203,13 @@ footer span {
 		flex-flow: nowrap;
 	}
 	
+	header h1{
+		border: none;
+		display: flex;
+		justify-content: flex-start;
+	}
 	header nav ul{
 		display: flex;
+		flex-direction: row;
 	}
 }
